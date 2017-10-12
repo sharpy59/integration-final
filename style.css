@@ -1,0 +1,280 @@
+@font-face {
+  font-family: "Tengwarc";
+  src: url('Tengwarc.ttf');
+}
+@font-face {
+  font-family: "partybusiness";
+  src: url('partybusiness.ttf');
+}
+@font-face {
+  font-family: "ani";
+  src: url('anicb___.ttf');
+  src: url('anicm___.ttf');
+  src: url('anirb___.ttf');
+  src: url('anirm___.ttf');
+}
+
+.titre{
+  color: white!important;
+  font-family: ani;
+}
+.nav1{
+  background-color: #ff5f01;
+  font-family: ani;
+  font-size: 15px;
+}
+.navbar-default .navbar-link{
+  font-size: 20px;
+  padding: 5px;
+}
+.titrecarouss{
+  font-family: partybusiness;
+  font-size: 60px;
+}
+.pcarouss{
+  font-family: partybusiness;
+  font-size: 30px;
+}
+.titrepills{
+  text-align: center;
+  font-family: ani;
+}
+.pills{
+  font-family: ani;
+  font-size: 20px!important;
+}
+.img_gandalf{
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  background-image: url("img/_gandalf.png") ;
+  margin-top:20px;
+  border: 4px groove darkorange;
+  transition: all 0.8s ease;
+}
+.img_aragorn{
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  background-image: url("img/_aragorn.png") ;
+  margin-top:20px;
+  border: 4px groove darkorange;
+  transition: all 0.8s ease;
+}
+.img_gimli{
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  background-image: url("img/_gimli.png") ;
+  margin-top:20px;
+  border: 4px groove darkorange;
+  transition: all 0.8s ease;
+}
+.txt{
+  display: none;
+  font-size: 25pt;
+  margin-top: 95%;
+  text-align: center;
+  font-family: partybusiness;
+}
+.img_gandalf:hover .dessu{
+  display: none;
+}
+.img_gandalf:hover p{
+  display: block;
+}
+.img_aragorn:hover .dessu{
+  display: none;
+}
+.img_aragorn:hover p{
+  display: block;
+}
+.img_gimli:hover .dessu{
+  display: none;
+}
+.img_gimli:hover p{
+  display: block;
+}
+.dessu{
+  width: 100%;
+  height: 100%;
+  background: rgba(236,240,241 ,0.5);
+  padding-top: 20px;
+}
+.dessu p{
+  text-align: center;
+}
+.titel{
+  width: 90%;
+  margin: auto;
+  height: auto;
+  background: rgba(236,240,241 ,0.8);
+  border-radius: 20px;
+}
+.titel h1{
+  text-align: center;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+  text-decoration:underline ;
+}
+.th1{
+  background-color: black;
+  padding: 15px;
+}
+.th1 p{
+  color: white;
+  font-size: 30px;
+  font-family: partybusiness;
+}
+.section1, .section3, .section5{
+  background-color:white ;
+  background-image: url("img/_bg_light.png");
+  padding: 20px;
+}
+.section1 h1{
+  color: #0f0f0f;
+}
+.section1 li{
+  font-size: 35px;
+}
+.section2, .section4, .section6{
+  background-color: black;
+  background-image: url("img/_bg_dark.png");
+  padding: 20px;
+}
+.section2 h1{
+  text-align: center;
+  color: white;
+  font-family: ani;
+  font-size: 30px;
+}
+.section2 p{
+  color: white;
+  font-family: partybusiness;
+  font-size: 20px;
+}
+.btnstyle{
+  border-radius: 0;
+  background-color: white;
+  color: #ff5f01;
+  transform: skew(-10deg);
+  border-color: transparent;
+  font-family: ani;
+  font-size: 20px;
+}
+.section3 h1{
+  font-family: ani;
+  color: black;
+}
+.media-heading{
+  font-family: partybusiness;
+  color: #ff5f01;
+  font-size: 40px;
+}
+.media2{
+  font-family: partybusiness;
+  color: #ff5f01;
+  font-size: 60px;
+  text-align: center;
+}
+.media-p{
+  font-family: partybusiness;
+  color: black;
+  font-size: 20px;
+}
+.btnstyle2{
+  border-radius: 0;
+  background-color: black;
+  color: #ff5f01;
+  transform: skew(-10deg);
+  border-color: transparent;
+  font-family: ani;
+  font-size: 10px;
+  margin-left: 10px;
+  padding: 2px;
+}
+.btnstyle3 {
+  border-radius: 0;
+  background-color: black;
+  color: #ff5f01;
+  transform: skew(-10deg);
+  border-color: transparent;
+  font-family: ani;
+  font-size: 20px;
+  margin-left: 25%;
+  padding: 10px;
+}
+.section4 h1{
+  font-family: ani;
+  color: white;
+
+}
+.panel-default > .panel-heading{
+  background-color: #ff5f01;
+  color: white;
+  font-family: ani;
+}
+.panel{
+  border: none;
+}
+.panel-body p{
+  font-family: partybusiness;
+  color: black;
+  font-size: 40px;
+}
+.list-group{
+  font-family: ani;
+}
+.titlegroup{
+  font-weight: bold;
+}
+.col1{
+  width: 20%;
+  float: left;
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  background-image: url("img/_gollum.png");
+  background-position:center center;
+  border-radius: 100%;
+  float: right;
+  overflow: hidden;
+}
+.section5 h1{
+  font-family: ani;
+}
+.section5 p{
+  font-family: partybusiness;
+  font-size: 25px;
+}
+.section6 h1{
+  font-family: ani;
+  color: white;
+}
+input{
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+}
+textarea{
+  border-radius: 10px;
+  width: 90%;
+  height: 150px;
+}
+footer {
+  padding: 40px;
+  width: 100%;
+  height: auto;
+  background-color: #ff5f01;
+}
+footer p {
+  font-family: ani;
+  color: white;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6{
+  padding: 40px!important;
+}
